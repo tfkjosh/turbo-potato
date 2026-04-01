@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Shield, Fingerprint, MapPin, Zap } from "lucide-react";
+import { Shield, MapPin, Zap } from "lucide-react";
 
 export function About() {
   return (

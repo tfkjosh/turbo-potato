@@ -14,7 +14,7 @@ export const projects: Project[] = [
     id: "aether-os",
     title: "AetherOS",
     description: "A high-fidelity web-based operating system built with Three.js and React. Features a functional terminal and window manager.",
-    tech: ["React", "Three.js", "Zustand", "Framer Motion"],
+    tech: ["Three.js", "Zustand", "Framer Motion"],
     size: "lg",
     category: "Frontend",
     link: "https://github.com/tfkjosh/turbo-potato"

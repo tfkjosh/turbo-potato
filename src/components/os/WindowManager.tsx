@@ -8,6 +8,7 @@ import { Projects } from "./apps/Projects";
 import { Contact } from "./apps/Contact";
 import { Skills } from "./apps/Skills";
 import { About } from "./apps/About";
+import { Settings } from "./apps/Settings";
 
 // Placeholder content components
 const WindowContentMap: Record<string, React.ReactNode> = {
@@ -16,7 +17,7 @@ const WindowContentMap: Record<string, React.ReactNode> = {
   projects: <Projects />,
   skills: <Skills />,
   contact: <Contact />,
-  settings: <div className="text-white/80">Adjusting system parameters...</div>,
+  settings: <Settings />,
 };
 
 export function WindowManager() {
